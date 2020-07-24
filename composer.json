@@ -1,0 +1,11 @@
+{
+    "require-dev": {
+        "vimeo/psalm": "^3.12",
+        "phpstan/phpstan": "^0.12.33"
+    },
+    "scripts": {
+        "psalm": "psalm",
+        "phpstan": "phpstan analyse -c phpstan.neon"
+
+    }
+}
