@@ -1,4 +1,7 @@
 <?php
+
+namespace Calculator;
+
 class Calculator
 {
     private float $a;

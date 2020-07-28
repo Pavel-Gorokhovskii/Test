@@ -1,11 +1,13 @@
 {
     "require-dev": {
         "vimeo/psalm": "^3.12",
-        "phpstan/phpstan": "^0.12.33"
+        "phpstan/phpstan": "^0.12.33",
+        "squizlabs/php_codesniffer": "3.*"
     },
     "scripts": {
         "psalm": "psalm",
-        "phpstan": "phpstan analyse -c phpstan.neon"
-
+        "phpstan": "phpstan analyse -c phpstan.neon",
+        "codestyle": "phpcs",
+        "codestylefix": "phpcbf"
     }
 }
